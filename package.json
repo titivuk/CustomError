@@ -1,0 +1,19 @@
+{
+	"name": "errors",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"watch:api": "./node_modules/.bin/nodemon examples/api/index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {},
+	"devDependencies": {
+		"nodemon": "^1.19.1",
+		"koa": "^2.8.1",
+		"winston": "^3.2.1"
+	}
+}
